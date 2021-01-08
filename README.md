@@ -22,6 +22,7 @@ This VBO allows connectivity from Blue Prism to an Oracle RBMS. It provides the 
 An issue was reported with the asset in relation to failing to close connections if this asset was used in a loop. This should now be fixed but it is now necessary to provide 2 versions of the asset. The bprelease file format changed at Blue Prism version 6.6. Therefore I have provided 2 versions of the asset, one which is for 6.5 and earlier and one for 6.6 and later. For the record, this version was created using Blue Prism V6.9 and the pre 6.5 version was created using the StudioDisplayFix tool, available on github.
 
 The file OracleMDA_6_displayfix.bprelease is for Blue Prism V6.5 and earlier.
+
 The file OracleMDA_6_Post6.5.bprelease is for Blue Prism V6.6 and later.
 
 Please advise any issues using the community forums.
